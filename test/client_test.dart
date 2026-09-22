@@ -119,7 +119,7 @@ void main() {
       await t.sdk.keys.retrieve();
 
       expect(t.recorder.sent.first.headers['Authorization'], 'Bearer $key');
-      expect(t.recorder.sent.first.headers['User-Agent'], startsWith('infro-dart/'));
+      expect(t.recorder.sent.first.headers['User-Agent'], 'infro-dart/0.1.2');
     });
 
     test('carries an idempotency key on a write', () async {
