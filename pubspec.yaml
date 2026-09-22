@@ -1,5 +1,5 @@
 name: infro
-version: 0.1.0
+version: 0.1.1
 description: >-
   The official Dart client for the INFRO API — one endpoint for text, image,
   video and audio models, with routing, fallbacks and estimated provider cost.
