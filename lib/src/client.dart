@@ -30,7 +30,7 @@ import 'errors.dart';
 /// Published production base URL. Overridable for staging and for tests.
 const String defaultBaseUrl = 'https://api.infro.io/v1';
 
-const String packageVersion = '0.1.0';
+const String packageVersion = '0.1.2';
 
 const Duration _defaultTimeout = Duration(minutes: 10);
 const int _defaultMaxRetries = 2;
