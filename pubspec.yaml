@@ -4,8 +4,8 @@ description: >-
   The official Dart client for the INFRO API — one endpoint for text, image,
   video and audio models, with routing, fallbacks and estimated provider cost.
 homepage: https://infro.io
-repository: https://github.com/infroio/dart-sdk
-issue_tracker: https://github.com/infroio/dart-sdk/issues
+repository: https://github.com/infroio/infro-dart-sdk
+issue_tracker: https://github.com/infroio/infro-dart-sdk/issues
 documentation: https://infro.io/docs
 topics:
   - ai

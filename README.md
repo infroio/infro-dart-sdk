@@ -1,7 +1,7 @@
 # infro
 
 [![pub package](https://img.shields.io/pub/v/infro.svg)](https://pub.dev/packages/infro)
-[![CI](https://github.com/infroio/dart-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/infroio/dart-sdk/actions/workflows/ci.yml)
+[![CI](https://github.com/infroio/infro-dart-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/infroio/infro-dart-sdk/actions/workflows/ci.yml)
 [![Pub Points](https://img.shields.io/pub/points/infro)](https://pub.dev/packages/infro/score)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
