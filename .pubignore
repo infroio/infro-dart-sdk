@@ -1,0 +1,9 @@
+# The archive on pub.dev is what a consumer downloads, so it carries the library
+# and the things that document it — not the test suite, which is 16 KB of fixture
+# nobody installing this package will run.
+#
+# `analysis_options.yaml` deliberately STAYS in the archive: pub.dev runs
+# `dart analyze` against what it received, and dropping the file would have it
+# score the package under rules the package was never written against.
+test/
+doc/

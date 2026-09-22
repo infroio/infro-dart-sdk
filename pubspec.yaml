@@ -1,0 +1,31 @@
+name: infro
+version: 0.1.0
+description: >-
+  The official Dart client for the INFRO API — one endpoint for text, image,
+  video and audio models, with routing, fallbacks and estimated provider cost.
+homepage: https://infro.io
+repository: https://github.com/infroio/dart-sdk
+issue_tracker: https://github.com/infroio/dart-sdk/issues
+documentation: https://infro.io/docs
+topics:
+  - ai
+  - llm
+  - openai
+  - api
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# One dependency, on purpose. `package:http` is the canonical Dart HTTP client
+# and is what Flutter apps already carry; anything more is weight in a mobile
+# bundle for a client that only needs requests, streams and a timeout.
+dependencies:
+  http: ^1.2.0
+
+dev_dependencies:
+  # A RANGE rather than ^6, deliberately. lints 6 needs Dart ^3.8, and this
+  # package's floor is 3.0 so a Flutter app on an older channel can still
+  # take it. A range lets pub pick 6.x on a current SDK and 4.x on the floor,
+  # instead of buying one lint release by narrowing who may install us.
+  lints: ">=4.0.0 <7.0.0"
+  test: ^1.25.0
